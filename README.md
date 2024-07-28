@@ -1,7 +1,5 @@
 # Logistic Regression and Feature Extraction-based Model for Detection of AI-Generated Texts
 
-Suxin Hu, Guoliang Wang, and Jinghong Li
-
 The codes of our paper "Logistic Regression and Feature Extraction-based Model for Detection of AI-Generated Texts", prepared for Mathematics Modeling Competition of SWU 2024.
 
 ## Detector Models
