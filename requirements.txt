@@ -1,0 +1,6 @@
+torch==1.10
+pandas
+sklearn
+nltk
+joblib
+transformers==4.27
