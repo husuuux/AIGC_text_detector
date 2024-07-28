@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 - Prepare a certain model to compare with, and put it in the folder ```models```, so that you can test the accuracy of the model.
 
+- Split the data files into txt files for training and testing.
+
 - Change the directory of the nltk_data in the utils.py file.
 
 Before running, the directory should contain the following files:
-
-- The file ```init.py``` to initialize as a package and folder ```runs``` for storing the trained models are empty.
 
 ```
 ├── data
@@ -63,17 +63,11 @@ Before running, the directory should contain the following files:
 │   └── Data interpretation
 ├── models
 │   ├── trained_model
-│   │   ├── logistic_regression_model.pkl
-│   │   └── tfidf_vectorizer.pkl
-│   └── runs
-├── results
-│   ├── Othermodel_test_result.png
-│   ├── prediction_results.csv
-│   ├── train_result.png
-│   ├── training_accuracy.png
-│   ├── training_loss.png
-│   ├── important_features.png
-│   └── test_result.png
+│   ├── ├── logistic_regression_model.pkl
+│   ├── └── tfidf_vectorizer.pkl
+├── English_v2
+│   ├── model files
+│   └── ……
 ├── README.md
 ├── utils.py
 ├── init.py
