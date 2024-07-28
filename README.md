@@ -61,8 +61,8 @@ Before running, the directory should contain the following files:
 │   └── Data interpretation
 ├── models
 │   ├── trained_model
-│   ├── ├── logistic_regression_model.pkl
-│   ├── └── tfidf_vectorizer.pkl
+│   │   ├── logistic_regression_model.pkl
+│   │   └── tfidf_vectorizer.pkl
 ├── English_v2
 │   ├── model files
 │   └── ……
