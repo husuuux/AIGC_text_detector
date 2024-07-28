@@ -2,7 +2,7 @@
 
 Suxin Hu, Guoliang Wang, and Jinghong Li
 
-The official codes of our paper "Logistic Regression and Feature Extraction-based Model for Detection of AI-Generated Texts", prepared for Mathematics Modeling Competition of SWU 2024.
+The codes of our paper "Logistic Regression and Feature Extraction-based Model for Detection of AI-Generated Texts", prepared for Mathematics Modeling Competition of SWU 2024.
 
 ## Detector Models
 
@@ -27,6 +27,8 @@ pip install -r requirements.txt
 - Download nltk package punct (This step could be done by ```nltk``` api: ```nltk.download('punkt')```)
 
 - Download pretrained models (This step could be automatically done by ```transformers```)
+
+- Prepare a certain model to compare with, and put it in the folder ```models```, so that you can test the accuracy of the model.
 
 - Change the directory of the nltk_data in the utils.py file.
 
@@ -60,13 +62,6 @@ Before running, the directory should contain the following files:
 │   ├── demo2.txt
 │   └── Data interpretation
 ├── models
-│   ├── English_v2
-│   │   ├── config.json
-│   │   ├── special_tokens_map.json
-│   │   ├── tokenizer_config.json
-│   │   ├── merges.txt
-│   │   ├── pytorch_model.bin
-│   │   └── vocab.json
 │   ├── trained_model
 │   │   ├── logistic_regression_model.pkl
 │   │   └── tfidf_vectorizer.pkl
@@ -96,12 +91,5 @@ Before running, the directory should contain the following files:
 
 The script for training is ```train.py```.
 
-## Acknowledgement
-
-The reference model for the English detector refers to the following GitHub repo:
-
-https://github.com/YuchuanTian/AIGC_text_detector
-
-We sincerely thank their authors for open-sourcing.
 
 
