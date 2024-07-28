@@ -80,9 +80,6 @@ Before running, the directory should contain the following files:
 ├── test.py
 ├── othermodel_test.py
 ├── requirements.txt
-├── othermodel_test_algorithm.pdf
-├── model_training.pdf
-├── model_feature_extraction.pdf
 ├── train.py
 └── demo.py
 ```
